@@ -93,7 +93,7 @@ print(results_df.sort_values(by='CV_Mean', ascending=False))
 # Step 6: Plot comparison
 # -------------------------------
 
-plt.figure(figsize=(8,5))
+plt.figure(figsize=(8,5)) # or make your own size
 for model_name in models.keys():
     subset = results_df[results_df['Model'] == model_name]
     plt.bar(subset['Scaler'], subset['CV_Mean'], alpha=0.7, label=model_name)
