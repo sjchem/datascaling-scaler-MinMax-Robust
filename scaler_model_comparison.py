@@ -1,5 +1,4 @@
 # Scaler & Model Comparison Template
-# Author: Santanu (Le Wagon Bootcamp Project Helper)
 # This notebook automatically compares StandardScaler, MinMaxScaler, and RobustScaler
 # using KNN and Logistic Regression models on any dataset.
 
