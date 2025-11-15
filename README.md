@@ -11,7 +11,7 @@ Train and evaluate both KNN and Logistic Regression models for each scaler.
 Show a bar chart comparing accuracies (or another metric).
 Print a summary table of results.
 
-# How you can run
+## How you can run
 You can open this in Jupyter or Colab and simply:
 Replace the sample Iris dataset with your own CSV (df = pd.read_csv('yourfile.csv')),
 Set the correct TARGET column name,
